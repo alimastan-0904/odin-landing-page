@@ -114,3 +114,11 @@ flex-basis: 70%;
 {
 flex-basis: 30%;
 }
+
+footer
+{
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
