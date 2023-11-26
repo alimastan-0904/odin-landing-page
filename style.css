@@ -38,3 +38,26 @@
     flex-basis: 50%;
 }
 
+.information
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+.imagebox {
+display: flex;
+gap: 2rem;
+}
+
+.imagecard
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagebox img{
+    padding: 2rem;
+}
