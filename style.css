@@ -1,0 +1,40 @@
+*
+{
+    border: 2px solid;
+}
+
+.headertop
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerbottom 
+{
+    display: flex;
+
+}
+
+.logo
+{
+    flex-basis: 50%;
+    margin-top: 1rem;
+}
+
+.links
+{   flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.description
+{
+    flex-basis: 50%;
+}
+
+.headerimage
+{
+    flex-basis: 50%;
+}
+
