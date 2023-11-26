@@ -80,3 +80,37 @@ gap: 2rem;
 {   margin-top: 0.1rem;
     margin-left: 35rem;
 }
+
+
+.signupsection
+{
+  display: flex;
+justify-content: center;
+}
+
+.signupbox
+
+{   margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 50rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.signupboxleft,
+.signupboxright
+{
+    text-align: center;
+}
+
+.signupboxleft
+{
+flex-basis: 70%;
+}
+
+.signupboxright
+{
+flex-basis: 30%;
+}
