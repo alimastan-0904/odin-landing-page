@@ -37,6 +37,7 @@ background-color: #1F2937;
 {
     display: flex;
     justify-content: flex-end;
+    margin-right: 7rem;
     gap: 1rem;
     font-size: 18px;
     color: #F9FAF8;
@@ -53,7 +54,8 @@ background-color: #1F2937;
 .headerbottom
 {
     margin-top: 4rem;
-    gap: 3rem;
+    gap: 1rem;
+
 }
 
 .description h1
@@ -77,15 +79,14 @@ background-color: #1F2937;
 .headerimage
 {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
   
 }
 
 .headerimage img
 {   
-    height: 35rem;
-    width: 60rem;
+    height: 24rem;
+    width: 40rem;
     border-radius: 25px;
 }
 
