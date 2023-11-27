@@ -2,13 +2,19 @@
 
 *
 {
-   
     font-family: 'Roboto', sans-serif;
+
+}
+
+
+body
+{
+    margin: 0;
 }
 
 header
 {
-padding-bottom: 4rem;
+padding-bottom: 5rem;
 padding-left: 6rem;
 padding-right: 6rem;
 background-color: #1F2937;
@@ -47,18 +53,25 @@ background-color: #1F2937;
 .headerbottom
 {
     margin-top: 4rem;
-}
-
-.description p
-{
-    font-size: 18px;
-    color: #F9FAF8;
+    gap: 3rem;
 }
 
 .description h1
 {
     font-size: 48px;
     color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.description p
+{
+    font-size: 18px;
+    color: #F9FAF8;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+ 
 }
 
 .headerimage
@@ -70,9 +83,10 @@ background-color: #1F2937;
 }
 
 .headerimage img
-{
-    width: 40rem;
-    height: 10rem;
+{   
+    height: 35rem;
+    width: 60rem;
+    border-radius: 25px;
 }
 
 .information
@@ -81,6 +95,7 @@ background-color: #1F2937;
     flex-direction: column;
     align-items: center;
     padding-bottom: 4rem;
+    
 }
 
 .information h1
@@ -92,15 +107,16 @@ background-color: #1F2937;
 .imagebox
 {   margin-top: 1.5rem;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .imagecard
 {
     display: flex;
     flex-direction: column;
-   
+    align-items: center;
 }
+
 
 .imagecard img
 {
@@ -108,6 +124,12 @@ background-color: #1F2937;
     width: 8rem;
     border: 4px solid #3882F6;
     border-radius: 25px;
+}
+
+.imagecard p 
+{
+    width: 8rem;
+    text-align: center;
 }
 
 .testimonial
@@ -127,7 +149,6 @@ background-color: #1F2937;
    font-size: 36px;
    color: #1F2937;
    font-style: italic;
-   
 }
 
 .quoter
@@ -139,8 +160,8 @@ background-color: #1F2937;
 
 .signupsection
 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
@@ -182,6 +203,8 @@ footer
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -189,8 +212,10 @@ button
 {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border: 2px solid white;
     border-radius: 25px;
     font-size: 15px;
