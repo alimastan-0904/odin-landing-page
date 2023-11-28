@@ -53,7 +53,7 @@ background-color: #1F2937;
 
 .headerbottom::before
 {
-    background-image: url(./images/handshake.jpg);
+    background-image: url(./images/handshake.jpg) ;
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -98,7 +98,7 @@ background-color: #1F2937;
     font-size: 18px;
     text-align: justify;
     font-weight: 700;
-    width: 30rem;
+    width: 25rem;
 }
 
 .information
