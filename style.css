@@ -53,8 +53,9 @@ background-color: #1F2937;
 
 .headerbottom::before
 {
-    background-image: url(./images/handshake.jpg) ;
-    background-size: cover;
+    background-image: url(./images/crossroads.jpg) ;
+    background-size: 119rem 58rem;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -69,9 +70,9 @@ background-color: #1F2937;
 {   padding-left: 6rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 3.5rem;
-    height: 40rem;
+    height: 52rem;
     background-color: #1F2937;
     position: relative;
 }
@@ -80,8 +81,6 @@ background-color: #1F2937;
 .headerbottom >*
 {
     color: #F9FAF8;
-    margin-top: 0rem;
-    margin-bottom: 0;
     position: relative;
  
 }
@@ -90,15 +89,26 @@ background-color: #1F2937;
 {
     font-size: 48px;
     margin-top: 4rem;
+    margin-bottom: 0;
 
 }
 
 .headerbottom p
-{   
+{   margin-top: 0;
+    margin-bottom: 0;
     font-size: 18px;
     text-align: justify;
     font-weight: 700;
-    width: 25rem;
+    width: 55rem;
+}
+
+.headerbottom a
+{
+   
+    font-size: 10px;
+    margin-top: 25rem;
+    margin-right: 1rem;
+    align-self: flex-end;
 }
 
 .information
