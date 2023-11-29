@@ -17,3 +17,5 @@ https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-A
 <a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
 
 <a href="https://www.freepik.com/icon/profits_3467330#fromView=search&term=investment&page=1&position=0&track=ais">Icon by Freepik</a>
+
+<a href="https://www.freepik.com/icon/badge_3975704#fromView=search&term=red+coin&page=1&position=0&track=ais">Icon by Freepik</a>
