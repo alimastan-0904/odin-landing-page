@@ -10,7 +10,7 @@ This project is going to demonstrate my ability to utilize flexbox and CSS in or
 
 Image/Icon Attributions:
 
-Photo by Ketut Subiyanto: https://www.pexels.com/photo/two-people-shaking-hands-4963437/
+https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-AAXQB-5HPior-9qFRqT-4wuem2-9rrE87-Mjy76-39CGcu-9roHrg-EUMpj-bk49xe-BskQs-ncaHE-teDAS
 
 <a href="https://www.freepik.com/icon/analysis_5758099#fromView=search&term=rising+stock&page=1&position=0&track=ais">Icon by Deylotus Creative Design</a>
 
