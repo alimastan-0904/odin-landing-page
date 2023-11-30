@@ -2,254 +2,128 @@
 *
 {
     font-family: 'Julius Sans One', sans-serif;
-}
 
+}
 
 body
 {
     margin: 0;
 }
 
-header
-{
-padding-left: 6rem;
-padding-right: 6rem;
-background-color: #960018;
-}
-
-.headertop
-{
-    display: flex;
-}
-
-.headertop >*
-{
-    flex-basis: 50%;
-    color: #F3E5AB;
-}
-
-
+.wrapper,
+header,
+.logo,
 .links
 {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 7rem;
-    gap: 1rem;
-    font-size: 18px;
-    
 }
 
-.logo 
+.wrapper
+{
+    flex-direction: column;
+}
+
+header
+{
+    flex-basis: 5rem;
+    align-items: center;
+    background-color: #A50021;
+}
+
+.logo,
+.links
+{
+    flex-basis: 50%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo >*,
+.links >*
+{   
+    color: #F3E5AB;
+    margin: 0;
+
+}
+
+.logo >*
+{
+    font-size: 1.9rem;
+
+}
+
+.logo img
+{
+    height: 35px;
+    width: 35px;
+}
+
+main
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-}
-
-.logo p{
-font-size: 24px;
-font-weight: 900;
+    flex-direction: column;
 }
 
 .headerbottom::before
 {
-    background-image: url(./images/crossroads.jpg) ;
-    background-size: 119rem 58rem;
+    background-image: url(./images/crossroads.jpg);
     background-repeat: no-repeat;
+    background-size: 119rem auto;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     content: "";
-    opacity: 0.7;
+    opacity: 0.4;
+    pointer-events: none;
 }
 
-.headerbottom
-
-{   padding-left: 6rem;
+    .headerbottom
+{   
+    flex-basis: 56rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
-    height: 55.5rem;
     background-color: #1F2937;
     position: relative;
-}
-
-
-.headerbottom >*
-{
-    color: #F3E5AB;
-    position: relative;
- 
-}
-
-.headerbottom h1
-{
-    font-size: 48px;
-    margin-top: 4rem;
-    margin-bottom: 0;
-
-}
-
-.headerbottom p
-{   margin-top: 0;
-    margin-bottom: 0;
-    font-size: 18px;
-    text-align: justify;
-    font-weight: 700;
-    width: 55rem;
-}
-
-.headerbottom a
-{
-   
-    font-size: 10px;
-    margin-top: 25rem;
-    margin-right: 1rem;
-    align-self: flex-end;
-}
-
-.information
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 4rem;
     
 }
 
-.information h1
+.headerbottom >*
 {
-    font-size: 36px;
-    color: #960018;
-}
-
-.imagebox
-{   margin-top: 1.5rem;
-    display: flex;
-    gap: 4rem;
-}
-
-.imagecard
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.imagecard img
-{
-    height: 8rem;
-    width: 8rem;
-    border: 4px solid #960018;
-    border-radius: 15px;
-    padding: 0.75rem;
-}
-
-.imagecard p 
-{
-    width: 8rem;
-    text-align: center;
-    color: #960018;
-}
-
-.testimonial
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    background-color: #F3E5AB;
-}
-
-
-.quote,
-.quoter
-{
-    color: #960018;
-}
-
-.quote
-{
-   width: 50rem;
-   text-align: justify;
-   font-size: 36px;
-   font-style: italic;
-}
-
-.quoter
-{   font-size: 25px;
-    margin-top: 0.2rem;
-    margin-left: 42rem;
-    font-weight:900;
-}
-
-.signupsection
-{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.signupbox
-{   width: 50rem;
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    gap: 4rem;
-    align-items: center;
-    background-color: #960018;
-    color: #F3E5AB;
-    border-radius: 15px;
-}
-
-
-.signupboxleft >*
-{
+    color: #F9FAF8;
     margin: 0;
 }
 
 
-.signupboxleft
+.headerbottom h1
 {
-    flex-basis: 70%;
+   margin-top: 14rem;
+
 }
 
-.signupboxright
+.headerbottom p
 {
-    flex-basis: 30%;
-    text-align: center;
+   max-width: 35rem;
+   font-weight: 800;
+   text-align: center;
 }
 
-footer
+.headerbottom a
 {
-    text-align: center;
-    background-color: #960018;
-    color: #F9FAF8;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    align-self: flex-end;
+    margin-right: 0.5rem;
+    margin-top: 17.5rem;
+    font-size: 0.75rem;
 }
-
 
 button
 {
-    background-color: #960018;
-    color: #F3E5AB;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border: 3px solid #F3E5AB;
-    border-radius: 15px;
-    font-size: 15px;
+    background-color: #A50021;
+    border-radius: 5px;
+    border: #F9FAF8 solid 1px;
+    padding: 1rem;
+    font-weight: 900;
 }
