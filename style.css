@@ -76,7 +76,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3.5rem;
+  gap: 2.5rem;
   background-color: #1f2937;
 }
 
@@ -86,19 +86,20 @@ main {
   opacity: 1;
 }
 
-.headerbottom h1 {
+.headerbottom h2 {
   margin-top: 14rem;
 }
 
 .headerbottom p {
   max-width: 35rem;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .headerbottom a {
   align-self: flex-end;
   margin-right: 0.5rem;
-  margin-top: 17.5rem;
+  margin-top: 21.5rem;
   font-size: 0.75rem;
 }
 
