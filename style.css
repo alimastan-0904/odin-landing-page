@@ -132,8 +132,7 @@ button
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 30rem;
-    background-color: #FFDEAD;
+    flex-basis: 30rem;
 }
 
 .information>*
@@ -166,7 +165,6 @@ button
 .imagecard img
 {
 width: 192px;
-background-color: white;
 border: 5px solid #A50021;
 border-radius: 10px;
 padding: 1rem;
@@ -177,4 +175,28 @@ padding: 1rem;
     flex-basis: 10%;
     text-align: center;
 
+}
+
+.testimonial
+{
+    background-color: #FFDEAD;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 15rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testimonial >* 
+{
+    margin: 0;
+}
+
+.quote
+{
+    font-size: 1.7rem;
+    font-style: italic;
+    width: 45rem;
 }
