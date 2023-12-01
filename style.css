@@ -2,7 +2,6 @@
 *
 {
     font-family: 'Julius Sans One', sans-serif;
-
 }
 
 body
@@ -69,35 +68,25 @@ main
     flex-direction: column;
 }
 
-.headerbottom::before
-{
-    background-image: url(./images/crossroads.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    content: "";
-    opacity: 0.4;
-    pointer-events: none;
-}
 
-    .headerbottom
+.headerbottom
 {   
+    background-image: url(./images/crossroads.jpg);
+    background-size: cover;
     flex-basis: 56rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
     background-color: #1F2937;
-    position: relative;
+    
 }
 
 .headerbottom >*
 {
     color: #F9FAF8;
     margin: 0;
+    opacity: 1;
 }
 
 
@@ -249,7 +238,7 @@ justify-content: center;
 .signupbox
 {   
     flex-basis: 70rem;
-    height: 5rem;
+    padding: 2rem;
     display: flex;
     background-color: #A50021;
     color: #F3E5AB;
@@ -280,7 +269,6 @@ margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 footer
