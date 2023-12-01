@@ -200,3 +200,56 @@ padding: 1rem;
     font-style: italic;
     width: 45rem;
 }
+
+.signupsection
+{   
+    
+    flex-basis: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupbox
+{   
+    flex-basis: 70rem;
+    height: 5rem;
+    display: flex;
+    background-color: #A50021;
+    border-radius: 10px;
+
+}
+
+.signupbox >*
+{
+    flex-basis: 50%;
+
+}
+
+.signupboxleft
+{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.signupboxleft >*
+{
+margin: 0;
+}
+
+.signupboxright
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer
+{
+    background-color: #A50021;
+    color: #F3E5AB;
+    text-align: center;
+}
