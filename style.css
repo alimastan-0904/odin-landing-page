@@ -8,6 +8,7 @@
 body
 {
     margin: 0;
+    font-weight: 900;
 }
 
 .wrapper,
@@ -68,7 +69,6 @@ main
 {
     background-image: url(./images/crossroads.jpg);
     background-repeat: no-repeat;
-    background-size: 119rem auto;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -107,7 +107,6 @@ main
 .headerbottom p
 {
    max-width: 35rem;
-   font-weight: 800;
    text-align: center;
 }
 
@@ -125,5 +124,57 @@ button
     border-radius: 5px;
     border: #F9FAF8 solid 1px;
     padding: 1rem;
-    font-weight: 900;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    background-color: #FFDEAD;
+}
+
+.information>*
+{
+    margin: 0;
+    color: #A50021;
+}
+.imagebox
+{   
+    width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagecard
+{
+    flex-basis: 12rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imagecard >*
+{
+    margin: 0;
+}
+
+.imagecard img
+{
+width: 192px;
+background-color: white;
+border: 5px solid #A50021;
+border-radius: 10px;
+padding: 1rem;
+}
+
+.imagecard p
+{   
+    flex-basis: 10%;
+    text-align: center;
+
 }

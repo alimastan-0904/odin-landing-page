@@ -14,7 +14,7 @@ https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-A
 
 <a href="https://www.freepik.com/icon/handshake_1006555#fromView=search&term=&page=1&position=4&track=sph">Icon by Freepik</a>
 
-<a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/debt" title="debt icons">Debt icons created by Freepik - Flaticon</a>
 
 <a href="https://www.freepik.com/icon/profits_3467330#fromView=search&term=investment&page=1&position=0&track=ais">Icon by Freepik</a>
 
