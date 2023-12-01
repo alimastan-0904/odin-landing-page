@@ -8,7 +8,7 @@ This project is going to demonstrate my ability to utilize flexbox and CSS in or
 
 Image/Icon Attributions:
 
-https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-AAXQB-5HPior-9qFRqT-4wuem2-9rrE87-Mjy76-39CGcu-9roHrg-EUMpj-bk49xe-BskQs-ncaHE-teDAS
+Bacground image from [Flickr](https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-AAXQB-5HPior-9qFRqT-4wuem2-9rrE87-Mjy76-39CGcu-9roHrg-EUMpj-bk49xe-BskQs-ncaHE-teDAS)
 
 Handshake icon by [Freepik](https://www.freepik.com/icon/handshake_1006555#fromView=search&term=&page=1&position=4&track=sph)
 
