@@ -1,6 +1,6 @@
 # odin-landing-page
 
-(Live preview)[https://alimastan-0904-landing-page.netlify.app]
+[Live preview](https://alimastan-0904-landing-page.netlify.app)
 
 This landing page was made as part of an assignment while doing The Odin Project.
 
@@ -10,10 +10,10 @@ Image/Icon Attributions:
 
 https://www.flickr.com/photos/mikentiffy/1872325680/in/photolist-3TwNcX-3Rsacf-AAXQB-5HPior-9qFRqT-4wuem2-9rrE87-Mjy76-39CGcu-9roHrg-EUMpj-bk49xe-BskQs-ncaHE-teDAS
 
-<a href="https://www.freepik.com/icon/handshake_1006555#fromView=search&term=&page=1&position=4&track=sph">Icon by Freepik</a>
+Handshake icon by [Freepik](https://www.freepik.com/icon/handshake_1006555#fromView=search&term=&page=1&position=4&track=sph)
 
-<a href="https://www.flaticon.com/free-icons/debt" title="debt icons">Debt icons created by Freepik - Flaticon</a>
+Debt icons created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/debt)
 
-<a href="https://www.freepik.com/icon/profits_3467330#fromView=search&term=investment&page=1&position=0&track=ais">Icon by Freepik</a>
+Investment icon from [Freepik](https://www.freepik.com/icon/profits_3467330#fromView=search&term=investment&page=1&position=0&track=ais)
 
-<a href="https://www.freepik.com/icon/badge_3975704#fromView=search&term=red+coin&page=1&position=0&track=ais">Icon by Freepik</a>
+Coin icon by [Freepik](https://www.freepik.com/icon/badge_3975704#fromView=search&term=red+coin&page=1&position=0&track=ais)
