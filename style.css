@@ -32,11 +32,24 @@ header {
 }
 
 .links {
-  gap: 1rem;
+  gap: 2rem;
+  font-size: 1.2rem;
 }
 
-.logo > *,
-.links > * {
+.links a {
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.links a:hover {
+  color: gray;
+}
+
+.logo p,
+.links a {
   color: #f3e5ab;
   margin: 0;
 }
@@ -129,7 +142,8 @@ button {
   width: 90rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .imagecard {
