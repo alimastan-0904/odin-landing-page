@@ -14,6 +14,6 @@ Coin Icon by [Freepik](https://www.freepik.com/icon/badge_3975704#fromView=searc
 
 Contract Icon by [itim2101](https://www.freepik.com/icon/confidential_1780847)
 
-Holding Heart Icon by [itim2102]("https://www.flaticon.com/free-icon/solidarity_1253233?term=heart+hand&page=1&position=5&origin=style&related_id=1253233")
+Holding Heart Icon by [itim2102](https://www.flaticon.com/free-icon/solidarity_1253233?term=heart+hand&page=1&position=5&origin=style&related_id=1253233)
 
-Profits Icon by [itim2102]("https://www.freepik.com/icon/profits_1252374#fromView=search&term=profits&page=1&position=7&track=ais")
+Profits Icon by [itim2102](https://www.freepik.com/icon/profits_1252374#fromView=search&term=profits&page=1&position=7&track=ais)
