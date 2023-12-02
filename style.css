@@ -2,16 +2,15 @@
 
 * {
   font-family: "Tenor Sans", sans-serif;
-}
-
-body {
   margin: 0;
+  padding: 0;
 }
 
 .wrapper,
 header,
 .logo,
-.links {
+.left,
+.right {
   display: flex;
 }
 
@@ -20,45 +19,53 @@ header,
 }
 
 header {
-  flex-basis: 5rem;
-  align-items: center;
-  background-color: #a50021;
+  background-color: #81171b;
+  position: fixed;
+  width: 100%;
+  height: 5rem;
 }
 
-.logo,
-.links {
-  flex-basis: 50%;
+.left {
   justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
 }
 
-.links {
-  gap: 2rem;
-  font-size: 1.2rem;
-}
-
-.links a {
-  text-decoration: none;
-  transition-property: color;
-  transition-duration: 0.2s;
-  transition-delay: 0.1s;
-  transition-timing-function: ease-in-out;
-}
-
-.links a:hover {
-  color: gray;
-}
-
-.logo p,
-.links a {
-  color: #f3e5ab;
-  margin: 0;
+.logo {
+  gap: 0.75rem;
+  align-items: center;
 }
 
 .logo > * {
   font-size: 1.9rem;
 }
 
-.logo img {
+.right {
+  gap: 2rem;
+  font-size: 1.2rem;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right a {
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.right a:hover {
+  color: gray;
+}
+
+.left a,
+.right a {
+  color: #fff3b0;
+  text-decoration: none;
+}
+
+.icon img {
   height: 35px;
   width: 35px;
 }
@@ -69,62 +76,49 @@ main {
 }
 
 .headerbottom {
-  background-image: url(./images/crossroads.jpg);
+  background-image: url(./images/Crossroads_in_Cumbria_-_geograph.org.uk_-_4624989.jpg);
   background-size: cover;
   background-attachment: fixed;
-  flex-basis: 56rem;
+  background-repeat: no-repeat;
+  flex-basis: 62rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.5rem;
   background-color: #1f2937;
 }
 
 .headerbottom > * {
-  color: #f9faf8;
-  margin: 0;
-  opacity: 1;
+  color: #fff3b0;
 }
 
-.headerbottom h2 {
-  margin-top: 14rem;
-}
-
-.headerbottom p {
-  max-width: 35rem;
+.bio p {
   text-align: center;
-  font-size: 1.2rem;
-}
-
-.headerbottom a {
-  align-self: flex-end;
-  margin-right: 0.5rem;
-  margin-top: 21.5rem;
-  font-size: 0.75rem;
+  max-width: 26rem;
+  margin-top: 1.5rem;
 }
 
 button {
-  background-color: #a50021;
+  background-color: #81171b;
   border-radius: 5px;
-  border: #f9faf8 solid 1px;
-  padding: 1rem;
-  color: #f9faf8;
+  border: #fff3b0 solid 1px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #fff3b0;
+  flex-basis: 12rem;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 4rem;
-  max-width: 5rem;
-  gap: 0.5rem;
+button:hover {
+  background-color: #6a040f;
 }
 
-.icon a {
-  margin: 0;
-  color: #f9faf8;
-  font-size: 0.5rem;
-  text-decoration: none;
+button:active {
+  border-style: inset;
 }
 
 .information {
@@ -136,15 +130,16 @@ button {
 }
 
 .information > * {
-  margin: 0;
-  color: #a50021;
+  color: #81171b;
 }
+
 .imagebox {
   width: 90rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  gap: 4rem;
+  gap: 9rem;
+  border-radius: 10px;
 }
 
 .imagecard {
@@ -155,13 +150,12 @@ button {
 }
 
 .image {
-  border: 5px solid #a50021;
+  border: 4px solid black;
   border-radius: 10px;
   width: 12rem;
   flex-basis: 12rem;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -171,58 +165,38 @@ button {
   width: 160px;
 }
 
-.image a {
-  color: #a50021;
-  font-size: 0.5rem;
-  text-decoration: none;
-}
-
 .imagecard p {
-  margin: 0;
   flex-basis: 10%;
   text-align: center;
 }
 
 .testimonial {
-  background-color: #ffdead;
+  flex-basis: 20rem;
   display: flex;
   flex-direction: column;
-  flex-basis: 35rem;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #fbba72;
+  justify-content: center;
 }
 
-.testimonial > * {
-  margin: 0;
-}
-
-.testimonial img {
-  height: 400px;
-  width: 270px;
-  border-radius: 10px;
-}
-
-.quote {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+.quote,
+.quoter {
+  color: #81171b;
   text-align: center;
 }
 
-.quote > * {
-  margin: 0;
-}
-
-.quoteone {
+.quote {
   font-style: italic;
   font-size: 1.5rem;
   max-width: 30rem;
 }
 
-.quotetwo {
+.quoter {
   font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .signupsection {
@@ -233,37 +207,48 @@ button {
 }
 
 .signupbox {
-  flex-basis: 70rem;
-  padding: 2rem;
-  display: flex;
-  background-color: #a50021;
-  color: #f3e5ab;
-  border-radius: 10px;
-}
-
-.signupbox > * {
-  flex-basis: 50%;
-}
-
-.signupboxleft {
+  flex-basis: 30rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  background-color: #81171b;
+  color: #fff3b0;
+  border-radius: 10px;
+  gap: 1rem;
   align-items: center;
-}
-
-.signupboxleft > * {
-  margin: 0;
-}
-
-.signupboxright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 footer {
-  background-color: #a50021;
-  color: #f3e5ab;
+  background-color: #81171b;
+  color: #fff3b0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.attributions {
+  color: #f3e5ab;
+}
+
+.attributionsection {
+  height: 80vh;
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
+
+.attributionsection h4 {
+  margin-top: 1rem;
+}
+
+.attributionsection > *,
+a {
+  color: #81171b;
+}
+
+.attributionsection ul li {
+  list-style: none;
 }
